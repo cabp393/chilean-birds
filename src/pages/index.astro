@@ -1,61 +1,28 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Species from '../components/Species.astro'
+import Card from '../components/Card.astro'
+import Navbar from '../components/Navbar.astro'
+
+const posts = await Astro.glob('./species/*.md')
 ---
 
-<Layout title="Birds">
-  <main>
-    <h1>Chilean <span class="text-gradient">Birds</span></h1>
-    <p class="instructions">
-      From the high Andean plateau at the edge of the most dry desert in the
-      world to the current in the central Pacific coast.
-    </p>
-    <ul role="list" class="link-card-grid">
-      <Species />
-    </ul>
-  </main>
+<Layout title="Chilean birds">
+  <Navbar />
+
+  <p class="instructions">
+    From the high Andean plateau at the edge of the most dry desert in the world
+    to the current in the central Pacific coast.
+  </p>
+  <ul role="list" class="link-card-grid">
+    {posts.map(post => <Card {...post.frontmatter} />)}
+  </ul>
 </Layout>
 
 <style>
-  :root {
-    --astro-gradient: linear-gradient(0deg, #4f39fa, #da62c4);
-  }
-
-  h1 {
-    margin: 2rem 0;
-  }
-
-  main {
-    margin: auto;
-    padding: 1em;
-    max-width: 60ch;
-  }
-
-  .text-gradient {
-    font-weight: 900;
-    background-image: var(--astro-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 100% 200%;
-    background-position-y: 100%;
-    border-radius: 0.4rem;
-    animation: pulse 4s ease-in-out infinite;
-  }
-
-  @keyframes pulse {
-    0%,
-    100% {
-      background-position-y: 0%;
-    }
-    50% {
-      background-position-y: 80%;
-    }
-  }
-
   .instructions {
     line-height: 1.6;
     margin: 1rem 0;
-    background: #4f39fa;
+    background: var(--astro-gradient);
     padding: 1rem;
     border-radius: 0.4rem;
     color: var(--color-bg);
@@ -70,7 +37,7 @@ import Species from '../components/Species.astro'
 
   .link-card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
     gap: 1rem;
     padding: 0;
   }
