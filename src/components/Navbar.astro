@@ -1,0 +1,39 @@
+<a href="/">
+  <h1>Chilean <span class="text-gradient">Birds</span></h1>
+</a>
+
+<style>
+  a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  h1 {
+    margin: 2rem 0;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: var(--color-bg);
+  }
+
+  .text-gradient {
+    font-weight: 900;
+    background-image: var(--astro-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100% 200%;
+    background-position-y: 100%;
+    border-radius: 0.4rem;
+    animation: pulse 4s ease-in-out infinite;
+  }
+
+  @keyframes pulse {
+    0%,
+    100% {
+      background-position-y: 0%;
+    }
+    50% {
+      background-position-y: 80%;
+    }
+  }
+</style>
