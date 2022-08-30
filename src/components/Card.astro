@@ -14,20 +14,9 @@ const { name, distribution, url } = Astro.props
   </a>
 </li>
 <style>
-  :root {
-    --link-gradient: linear-gradient(
-      45deg,
-      #4f39fa,
-      #da62c4 30%,
-      var(--color-border) 60%
-    );
-  }
-
   .link-card {
     list-style: none;
     display: flex;
-    /* padding: 0.15rem; */
-    /* background-image: var(--link-gradient); */
     background-size: 400%;
     border-radius: 0.5rem;
     background-position: 100%;
@@ -38,7 +27,6 @@ const { name, distribution, url } = Astro.props
     width: 100%;
     text-decoration: none;
     line-height: 1.4;
-    /* padding: 0.3em; */
     border-radius: 0.35rem;
     color: var(--text-color);
     background-color: white;
@@ -47,7 +35,6 @@ const { name, distribution, url } = Astro.props
 
   .link-card .data {
     padding: 0.5rem;
-    /* color: red; */
   }
 
   h3 {
@@ -65,26 +52,12 @@ const { name, distribution, url } = Astro.props
     transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
   }
 
-  .link-card:is(:hover, :focus-within) {
-    background-position: 0;
-  }
-
   .link-card:is(:hover, :focus-within) h3 {
     color: #4f39fa;
   }
 
-  .link-card:is(:hover, :focus-within) h3 span {
-    will-change: transform;
-    transform: translateX(2px);
-  }
-
   .link-card:is(:hover, :focus-within) > a {
-    will-change: transform;
-    transform: scale(1.3);
-    z-index: 1;
-    opacity: 1;
-    box-shadow: 0px 0px 300px 1px rgb(0, 0, 0, 0.3);
-    transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    box-shadow: 0px 7px 30px 10px rgb(0, 0, 0, 0.1);
   }
 
   img {
