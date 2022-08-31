@@ -3,7 +3,7 @@ const { name, distribution, url } = Astro.props
 ---
 
 <li class="link-card">
-  <a href={`/species/${url}`} {name}>
+  <a href={`/${url}`} {name}>
     <img src={`./${url}.jpg`} alt={name} width="100%" loading="lazy" />
     <div class="data">
       <h3>{name}</h3>

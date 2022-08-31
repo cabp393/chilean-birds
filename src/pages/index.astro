@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
 import Navbar from '../components/Navbar.astro'
 
-const posts = await Astro.glob('./species/*.md')
+const posts = await Astro.glob('../../species/*.md')
 ---
 
 <Layout title="Chilean birds">
@@ -24,15 +24,9 @@ const posts = await Astro.glob('./species/*.md')
     margin: 1rem 0;
     background: var(--astro-gradient);
     padding: 1rem;
+    margin-bottom: 5ch;
     border-radius: 0.4rem;
     color: var(--color-bg);
-  }
-
-  .instructions code {
-    font-size: 0.875em;
-    border: 0.1em solid var(--color-border);
-    border-radius: 4px;
-    padding: 0.15em 0.25em;
   }
 
   .link-card-grid {
