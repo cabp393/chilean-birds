@@ -1,10 +1,17 @@
 ---
-const { name, distribution, url } = Astro.props
+const { name, distribution, url, an, al } = Astro.props
 ---
 
 <li class="link-card">
   <a href={`/${url}`} {name}>
-    <img src={`./${url}.avif`} alt={name} width="100%" loading="lazy" />
+    <img
+      src={`./${url}.avif`}
+      alt={name}
+      width={an}
+      height={al}
+      loading="lazy"
+    />
+
     <div class="data">
       <h3>{name}</h3>
       <p>
@@ -34,7 +41,10 @@ const { name, distribution, url } = Astro.props
   }
 
   img {
+    width: 100%;
+    height: auto;
     border-radius: 0.3rem 0.3rem 0 0;
+    aspect-ratio-box: auto;
   }
 
   .link-card .data {

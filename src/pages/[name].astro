@@ -1,6 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import { Image } from '@astrojs/image/components'
 
 export async function getStaticPaths() {
   const posts = await Astro.glob('../../species/*.md')
@@ -19,7 +18,12 @@ const { Content, frontmatter } = Astro.props.post
 <Layout title={frontmatter.name}>
   <div class="species">
     <h1>{frontmatter.name}</h1>
-    <img src={`/${frontmatter.url}.avif`} alt={frontmatter.name} />
+    <img
+      src={`/${frontmatter.url}.avif`}
+      alt={frontmatter.name}
+      width={frontmatter.an}
+      height={frontmatter.al}
+    />
     <Content />
   </div>
 </Layout>
@@ -33,9 +37,11 @@ const { Content, frontmatter } = Astro.props.post
   }
 
   img {
-    border-radius: 1ch;
     width: 100%;
+    height: auto;
     opacity: 0.8;
     margin: 4ch 0 4ch;
+    border-radius: 1ch;
+    aspect-ratio-box: auto;
   }
 </style>
