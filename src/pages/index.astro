@@ -9,30 +9,32 @@ const posts = await Astro.glob('../../species/*.md')
 <Layout title="Chilean birds">
   <Navbar />
 
-  <p class="instructions">
+  <p class="description">
     From the high Andean plateau at the edge of the most dry desert in the world
     to the current in the central Pacific coast.
   </p>
+
   <ul role="list" class="link-card-grid">
     {posts.map(post => <Card {...post.frontmatter} />)}
   </ul>
 </Layout>
 
 <style>
-  .instructions {
+  .description {
+    padding: 2ch;
+    margin: 1ch 0;
     line-height: 1.6;
-    margin: 1rem 0;
-    background: var(--astro-gradient);
-    padding: 1rem;
     margin-bottom: 5ch;
-    border-radius: 0.4rem;
+    border-radius: 1ch;
     color: var(--color-bg);
+    text-shadow: 1px 1px 5px black;
+    background: var(--astro-gradient);
   }
 
   .link-card-grid {
+    gap: 1ch;
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-    gap: 1rem;
-    padding: 0;
   }
 </style>
