@@ -1,8 +1,10 @@
 ---
-name: Antipodean Albatross
 url: antipodean-albatross
+name: Antipodean Albatross
 distribution: In Chilean waters during its resting period.
 tags: VU
+an: 650
+al: 400
 ---
 
 ## IUCN classification (2019)

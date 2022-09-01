@@ -1,8 +1,10 @@
 ---
+  url: chatham-albatross
   name: Chatham Albatross
   distribution: Chatham islands.
-  url: chatham-albatross
   tag: CR
+  an: 600
+  al: 399
 ---
 
 ## Distribution
