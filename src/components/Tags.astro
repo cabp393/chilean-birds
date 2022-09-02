@@ -1,0 +1,54 @@
+---
+const { active } = Astro.props
+---
+
+<div class="tagsContainer">
+  <a href="/" class={`tag ${'/' === active ? 'active' : ''}`}> All</a>
+  <a href="EX" class={`tag ${'EX' === active ? 'active' : ''}`}> Extinct</a>
+  <a href="EW" class={`tag ${'EW' === active ? 'active' : ''}`}>
+    Extinct in the wild</a
+  >
+  <a href="CR" class={`tag ${'CR' === active ? 'active' : ''}`}>
+    Critically endangered</a
+  >
+  <a href="EN" class={`tag ${'EN' === active ? 'active' : ''}`}> Endangered</a>
+  <a href="VU" class={`tag ${'VU' === active ? 'active' : ''}`}> Vulnerable</a>
+  <a href="NT" class={`tag ${'NT' === active ? 'active' : ''}`}>
+    Near threatened</a
+  >
+  <a href="LC" class={`tag ${'LC' === active ? 'active' : ''}`}>
+    Least concern</a
+  >
+  <a href="DD" class={`tag ${'DD' === active ? 'active' : ''}`}>
+    Data deficient</a
+  >
+  <a href="NE" class={`tag ${'NE' === active ? 'active' : ''}`}>
+    Not evaluated</a
+  >
+</div>
+
+<style>
+  .tagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1ch;
+    margin-bottom: 4ch;
+  }
+  .tag {
+    padding: 1ch;
+    font-size: medium;
+    padding-inline: 2ch;
+    color: rgb(80, 80, 80);
+    background-size: 100%;
+    text-decoration: none;
+    border-radius: 3ch;
+    background-color: rgb(221, 221, 221);
+  }
+
+  .active {
+    color: var(--color-primary);
+    font-weight: 500;
+    border: 1px solid var(--color-primary);
+    background-color: transparent;
+  }
+</style>

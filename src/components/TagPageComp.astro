@@ -1,23 +1,18 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
-import Navbar from '../components/Navbar.astro'
 import Tags from '../components/Tags.astro'
 
+const { pTag } = Astro.props
 const posts = await Astro.glob('../../species/*.md')
+const filteredPosts = posts.filter(p => p.frontmatter.tag === pTag)
 ---
 
 <Layout title="Chilean birds">
-  <Navbar />
-
-  <p class="description">
-    From the high Andean plateau at the edge of the most dry desert in the world
-    to the current in the central Pacific coast.
-  </p>
-  <Tags active={'/'} />
+  <Tags active={pTag} />
 
   <ul role="list" class="link-card-grid">
-    {posts.map(post => <Card {...post.frontmatter} />)}
+    {filteredPosts.map(post => <Card {...post.frontmatter} />)}
   </ul>
 </Layout>
 

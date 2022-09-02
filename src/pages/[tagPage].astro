@@ -1,0 +1,18 @@
+---
+import TagPageComp from '../components/TagPageComp.astro'
+
+export async function getStaticPaths() {
+  const posts = await Astro.glob('../../species/*.md')
+  return posts.map(post => ({
+    params: {
+      tagPage: post.frontmatter.tag,
+    },
+    props: {
+      post,
+    },
+  }))
+}
+const { Content, frontmatter } = Astro.props.post
+---
+
+<TagPageComp pTag={frontmatter.tag} />
