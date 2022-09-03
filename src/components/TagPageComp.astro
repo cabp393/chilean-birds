@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
 import Tags from '../components/Tags.astro'
+import Navbar from './Navbar.astro'
 
 const { pTag } = Astro.props
 const posts = await Astro.glob('../../species/*.md')
@@ -9,6 +10,7 @@ const filteredPosts = posts.filter(p => p.frontmatter.tag === pTag)
 ---
 
 <Layout title="Chilean birds">
+  <Navbar />
   <Tags active={pTag} />
 
   <ul role="list" class="link-card-grid">
