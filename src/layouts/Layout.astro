@@ -23,9 +23,14 @@ const { title } = Astro.props
         --color-bg: hsl(10, 21%, 95%);
         --color-border: hsl(17, 24%, 90%);
 
-        --color-primary: #1127ec;
-        --color-secondary: #00aeff;
-        --astro-gradient: linear-gradient(-30deg, #00aeff, #1127ec);
+        --color-primary: #16689f;
+        --color-secondary: #04264c;
+        --astro-gradient: linear-gradient(
+          -30deg,
+          var(--color-secondary),
+          var(--color-primary)
+        );
+        /* --astro-gradient: linear-gradient(-30deg, #00aeff, #1127ec); */
       }
 
       html {
