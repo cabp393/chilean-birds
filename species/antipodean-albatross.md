@@ -7,49 +7,70 @@ an: 650
 al: 400
 ---
 
-## IUCN classification (2019)
+## IUCN CLASSIFICATION (2019)
 
-**EN**: Endangered
+EN: Endangered
 
-## Local names
+## ORDER
 
-None.
+Procellariiformes
 
-## Distribution in Chile
+## FAMILY
+
+Diomedeidae
+
+## NAME IN SPANISH RECOMMENDED BY THE S.E.O
+
+None
+
+## MONOTYPIC
+
+Diomedes (Greek warrior) of the antipodes<br>
+Diomedea antipodensis (Robertson and Warham)<br><br>
+
+Diomedea (G) = Diomedes, Greek mythological warrior whose companions became seabirds<br>
+antipodensis = of the Antipodes; place on the earth's surface diametrically opposite to another<br><br>
+
+Diomedes (Greek warrior) of the antipodes
+
+## LOCAL NAME(S)
+
+None
+
+## DISTRIBUTION IN CHILE
 
 In Chilean waters during its resting period.
 
-## Habitat
+## HABITAT
 
 Pelagic
 
-## Description
+## DESCRIPTION
 
 Length: 110 - 117 cm.<br>
 Wingspan: 2.8 - 3.3 meters.
 
-## Feeding
+## FOOD
 
 Cephalopods, fish and crustaceans.
 
-## Reproduction
+## REPRODUCTION
 
-An egg, whitish with reddish spots at the blunt end.
+An egg, whitish with reddish spots on the blunt end.
 
-## Observations
+## OBSERVATIONS
 
-Considered by the SACC as a subspecies of the Wandering Albatross (Diomedea exulans antipodensis). The proposal to raise it to the rank of species did not pass. Tickell (2000), Martinez & Gonzalez (2004), Onley & Scofield (2007), IUCN (2014) and Zoonomen.net consider it to be a proper species.
+Considered by the SACC as a subspecies of the Wandering Albatross (Diomedea exulans antipodensis). The proposal to raise it to the rank of species did not pass. Tickell (2000), Martinez Gonzalez (2004), Onley Scofield (2007), IUCN (2014) and Zoonomen.net consider it to be a proper species.<br><br>
 
-Martinez and Gonzalez (2005) mention it in their work as a species that can be found in the Chilean sea, indicating that there is a record with photographs in the Los Chonos Archipelago (2004). Other photographic records off Valparaiso in 2009 and 2010 (see photographs by Pablo Caceres).
+Martínez and González (2005) mention it in their work as a species that can be found in the Chilean sea, indicating that there is a record with photographs in the Los Chonos Archipelago (2004). Other photographic records off Valparaiso in 2009 and 2010 (see photographs by Pablo Caceres).
 
-## Distribution
+## DISTRIBUTION (Clement's checklist 6.9)
 
-It nests in the Antipodes Islands and (in smaller numbers) in Is. Campbell (New Zealand); marine range to the Tasman Sea and S of the O. Pacific (Chile)
+It nests on the Antipodean Islands and (to a lesser extent) on Campbell Is. (New Zealand); marine range to the Tasman Sea and S of the O. Pacific (Chile)
 
-## Threats
+## THREATS
 
-Bycatch in tuna and swordfish longline fishing. Feral pigs and cats in their nesting areas (IUCN 2014).
-
+Bycatch in tuna and swordfish longline fishing. Feral pigs and cats in their nesting areas (IUCN 2014).<br><br>
 This species is considered to be experiencing a very rapid decline in population size (IUCN 2019).
 
 ## Image detail
