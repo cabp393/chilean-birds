@@ -1,4 +1,6 @@
 ---
+import ScrollUp from '../components/ScrollUp.astro'
+
 const { title } = Astro.props
 ---
 
@@ -13,6 +15,7 @@ const { title } = Astro.props
   </head>
   <body>
     <slot />
+    <ScrollUp />
     <style>
       :root {
         --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
@@ -30,14 +33,13 @@ const { title } = Astro.props
           var(--color-secondary),
           var(--color-primary)
         );
-        /* --astro-gradient: linear-gradient(-30deg, #00aeff, #1127ec); */
       }
 
       html {
         font-family: system-ui, sans-serif;
-        font-size: var(--font-size-base);
         color: var(--color-text);
         background-color: var(--color-bg);
+        scroll-behavior: smooth;
       }
 
       body {
