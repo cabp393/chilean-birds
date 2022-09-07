@@ -1,23 +1,36 @@
 ---
-const { name, distribution, url, an, al } = Astro.props
+const { posts } = Astro.props
 ---
 
-<li class="link-card">
-  <a href={`/${url}`} {name}>
-    <img
-      src={`./${url}.avif`}
-      alt={name}
-      width={an}
-      height={al}
-      loading="lazy"
-    />
+<ul role="list" class="link-card-grid">
+  {posts.map(post => (
 
-    <div class="data">
-      <h3>{name}</h3>
-    </div>
-  </a>
-</li>
+    <li class="link-card">
+      <a href={`/${post.frontmatter.url}`} {post.frontmatter.name}>
+      <img
+      src={`./${post.frontmatter.url}.avif`}
+      alt={post.frontmatter.name}
+      width={post.frontmatter.an}
+      height={post.frontmatter.al}
+      loading="lazy"
+      />
+      
+      <div class="data">
+        <h3>{post.frontmatter.name}</h3>
+        </div>
+        </a>
+        </li>
+        ))}
+</ul>
+
 <style>
+  .link-card-grid {
+    gap: 3ch;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  }
+
   .link-card {
     display: flex;
     list-style: none;
