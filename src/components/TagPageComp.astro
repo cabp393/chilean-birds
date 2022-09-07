@@ -12,28 +12,5 @@ const filteredPosts = posts.filter(p => p.frontmatter.tag === pTag)
 <Layout title="Chilean birds">
   <Navbar />
   <Tags active={pTag} />
-
-  <ul role="list" class="link-card-grid">
-    {filteredPosts.map(post => <Card {...post.frontmatter} />)}
-  </ul>
+  <Card posts={filteredPosts} />
 </Layout>
-
-<style>
-  .description {
-    padding: 2ch;
-    margin: 1ch 0;
-    line-height: 1.6;
-    margin-bottom: 5ch;
-    border-radius: 1ch;
-    color: var(--color-bg);
-    text-shadow: 1px 1px 5px black;
-    background: var(--astro-gradient);
-  }
-
-  .link-card-grid {
-    gap: 1ch;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-  }
-</style>
