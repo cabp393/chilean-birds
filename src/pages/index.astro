@@ -3,40 +3,14 @@ import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
 import Navbar from '../components/Navbar.astro'
 import Tags from '../components/Tags.astro'
+import Description from '../components/Description.astro'
 
 const posts = await Astro.glob('../../species/*.md')
 ---
 
 <Layout title="Chilean birds">
   <Navbar />
-
-  <p class="description">
-    From the high Andean plateau at the edge of the most dry desert in the world
-    to the current in the central Pacific coast.
-  </p>
+  <Description />
   <Tags active={'/'} />
-
-  <ul role="list" class="link-card-grid">
-    {posts.map(post => <Card {...post.frontmatter} />)}
-  </ul>
+  <Card posts={posts} />
 </Layout>
-
-<style>
-  .description {
-    padding: 2ch;
-    margin: 1ch 0;
-    line-height: 1.6;
-    margin-bottom: 5ch;
-    border-radius: 1ch;
-    color: var(--color-bg);
-    text-shadow: 1px 1px 5px rgb(0, 0, 0, 0.3);
-    background: var(--astro-gradient);
-  }
-
-  .link-card-grid {
-    gap: 3ch;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
-  }
-</style>
