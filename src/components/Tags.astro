@@ -1,53 +1,12 @@
 ---
-const { active } = Astro.props
+import { tagList } from './tagList.astro'
 
-const list = [
-  {
-    tag: '/',
-    title: 'All',
-  },
-  {
-    tag: 'EX',
-    title: 'Extinct',
-  },
-  {
-    tag: 'EW',
-    title: 'Extinct in the wild',
-  },
-  {
-    tag: 'CR',
-    title: 'Critically endangered',
-  },
-  {
-    tag: 'EN',
-    title: 'Endangered',
-  },
-  {
-    tag: 'VU',
-    title: 'Vulnerable',
-  },
-  {
-    tag: 'NT',
-    title: 'Near threatened',
-  },
-  {
-    tag: 'LC',
-    title: 'Least concern',
-  },
-  {
-    tag: 'DD',
-    title: 'Data deficient',
-  },
-  {
-    tag: 'NE',
-    title: 'Not evaluated',
-  },
-]
+const { active } = Astro.props
 ---
 
 <div class="tagsContainer">
   {
-    list.map(item => {
+    tagList.map(item => {
       const temp = item.tag === active ? 'tag active' : 'tag'
       return (
         <a href={item.tag} class={temp}>
@@ -74,19 +33,15 @@ const list = [
     background-size: 100%;
     text-decoration: none;
     border-radius: 3ch;
-    border: 1px solid transparent;
     background-color: rgb(221, 221, 221);
   }
 
   .tag:hover {
-    border: 1px solid var(--color-primary);
     background-color: rgb(221, 221, 221, 0.3);
   }
 
   .active {
-    color: var(--color-primary);
-    font-weight: 500;
-    border: 1px solid var(--color-primary);
-    background-color: transparent;
+    color: var(--color-bg);
+    background-image: var(--astro-gradient);
   }
 </style>
