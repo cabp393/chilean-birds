@@ -12,5 +12,12 @@ const filteredPosts = posts.filter(p => p.frontmatter.tag === pTag)
 <Layout title="Chilean birds">
   <Navbar />
   <Tags active={pTag} />
+  <p style="border-bottom: 1px solid #cecece; padding-bottom: 1ch;">
+    {
+      filteredPosts.length === 1
+        ? `${filteredPosts.length} result.`
+        : `${filteredPosts.length} results.`
+    }
+  </p>
   <Card posts={filteredPosts} />
 </Layout>
