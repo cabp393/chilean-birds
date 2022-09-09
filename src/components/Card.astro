@@ -16,7 +16,7 @@ const { posts } = Astro.props
       />
       
       <div class="data">
-        <h3>{post.frontmatter.name}</h3>
+        <h2>{post.frontmatter.name}</h2>
         </div>
         </a>
         </li>
@@ -71,8 +71,13 @@ const { posts } = Astro.props
     flex-direction: column;
   }
 
-  .link-card:is(:hover) h3 {
+  .link-card:is(:hover) h2 {
     color: var(--color-primary);
     transition: 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  h2 {
+    margin: 0;
+    opacity: 1;
   }
 </style>
