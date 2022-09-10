@@ -69,11 +69,12 @@ const { title } = Astro.props
         opacity: 0.8;
       }
 
-      :global(input),
-      :global(textarea),
-      :global(button),
-      :global(select),
-      :global(a) {
+      :global(td, th) {
+        opacity: 0.8;
+        text-align: center;
+      }
+
+      :global(input, textarea, button, select, a) {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       }
     </style>
