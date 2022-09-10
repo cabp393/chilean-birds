@@ -3,27 +3,20 @@
   name: Pacific Albatross
   distribution: Humboldt current.
   tag: NE
-  an: 370
-  al: 299
+  an: 1480
+  al: 1196
 ---
 
-## IUCN CLASSIFICATION (2019)
+| IUCN | ORDER             | FAMILY      |
+| ---- | ----------------- | ----------- |
+| None | Procellariiformes | Diomedeidae |
 
-None
-
-## ORDER
-
-Procellariiformes
-
-## FAMILY
-
-Diomedeidae
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
 Thalassarche (platei) (Reichenow)
 
-## Monotypic
+## MONOTYPIC
 
 Pacific albatross<br>
 Northern Buller's albatross<br><br>
@@ -56,6 +49,6 @@ There are two lines for this breed: one that includes it as a subspecies of Bull
 In both cases, the denomination platei in the scientific name is misapplied, since that is how an immature bulleri was named for the first time.<br><br>
 Martinez and Gonzalez (2005), who mention it in their work as an albatross that migrates to Peruvian and Chilean waters during its non-breeding period, and which has been photographed by the authors on several occasions on the central coast of Chile, consider it a species itself, separated from T. bulleri (Tickell, 2000), based on DNA analysis. They also indicate that their wings are more rounded, and in ventral view they have a wide black leading edge, wider than in the Buller's Albatross (Thalassarche bulleri), and therefore only its definitive denomination is pending.
 
-## Image detail
+## IMAGE DETAIL
 
 Autor: Mike Danzenbaker [Link](http://www.avesphoto.com/website/home.htm)
