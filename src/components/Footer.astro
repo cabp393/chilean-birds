@@ -1,0 +1,37 @@
+---
+const last = new Date().toLocaleDateString('en-us', {
+  year: 'numeric',
+  month: 'short',
+})
+---
+
+<footer>
+  <p>Last update: {last}</p>
+  <p>Chilean Birds</p>
+  <a href="https://github.com/cabp393/chilean-birds">
+    <img
+      src="/github.svg"
+      width="30px"
+      height="30px"
+      alt="Chilean Birds Github repository"
+      loading="lazy"
+    />
+  </a>
+</footer>
+
+<style>
+  footer {
+    gap: 2ch;
+    display: flex;
+    margin-top: 3ch;
+    padding-top: 3ch;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid #cecece;
+  }
+
+  img {
+    opacity: 0.8;
+  }
+</style>
