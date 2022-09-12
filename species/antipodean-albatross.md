@@ -5,33 +5,26 @@ distribution: In Chilean waters during its resting period.
 tag: EN
 an: 650
 al: 400
+order: Procellariiformes
+family: Diomedeidae
 ---
 
-## IUCN CLASSIFICATION (2019)
-
-EN: Endangered
-
-## ORDER
-
-Procellariiformes
-
-## FAMILY
-
-Diomedeidae
+| ORDER             | FAMILY      |
+| ----------------- | ----------- |
+| Procellariiformes | Diomedeidae |
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
-None
+See observations.
 
 ## MONOTYPIC
 
-Diomedes (Greek warrior) of the antipodes<br>
 Diomedea antipodensis (Robertson and Warham)<br><br>
 
-Diomedea (G) = Diomedes, Greek mythological warrior whose companions became seabirds<br>
-antipodensis = of the Antipodes; place on the earth's surface diametrically opposite to another<br><br>
+Diomedea (G) = Diomedes, Greek mythological warrior whose companions became seabirds.<br>
+antipodensis = of the Antipodes; place on the earth's surface diametrically opposite to another.<br><br>
 
-Diomedes (Greek warrior) of the antipodes
+Diomedes (Greek warrior) of the antipodes.
 
 ## LOCAL NAME(S)
 
@@ -66,14 +59,18 @@ Martínez and González (2005) mention it in their work as a species that can be
 
 ## DISTRIBUTION (Clement's checklist 6.9)
 
-It nests on the Antipodean Islands and (to a lesser extent) on Campbell Is. (New Zealand); marine range to the Tasman Sea and S of the O. Pacific (Chile)
+It nests on the Antipodean Islands and (to a lesser extent) on Campbell Is. (New Zealand); marine range to the Tasman Sea and S of the O. Pacific (Chile).
+
+## IUCN CLASSIFICATION (2019)
+
+EN: Endangered
 
 ## THREATS
 
 Bycatch in tuna and swordfish longline fishing. Feral pigs and cats in their nesting areas (IUCN 2014).<br><br>
 This species is considered to be experiencing a very rapid decline in population size (IUCN 2019).
 
-## Image detail
+## IMAGE DETAIL
 
-Valparaiso - Octubre 2010 <br>
-Autor: Pablo Caceres [Link](http://www.flickr.com/photos/pablocaceres/)
+Valparaiso - October 2010 <br>
+Autor: Pablo Caceres

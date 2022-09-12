@@ -1,23 +1,17 @@
 ---
-  url: bullers-albatross
-  name: Bullers Albatross
-  distribution: Occasional visitor to the coastal area. Recorded south of Iquique, Bahia Salada (Atacama), Valparaiso and the mouth of the Aconcagua River.
-  tag: NT
-  an: 649
-  al: 400
+url: bullers-albatross
+name: Buller's Albatross
+distribution: Occasional visitor to the coastal area. Recorded south of Iquique, Bahia Salada (Atacama), Valparaiso and the mouth of the Aconcagua River.
+tag: NT
+an: 649
+al: 400
+order: Procellariiformes
+family: Diomedeidae
 ---
 
-## IUCN CLASSIFICATION (2019)
-
-NT: Near Threatened
-
-## ORDER
-
-Procellariiformes
-
-## FAMILY
-
-Diomedeidae
+| ORDER             | FAMILY      |
+| ----------------- | ----------- |
+| Procellariiformes | Diomedeidae |
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
@@ -29,10 +23,10 @@ Thalassarche bulleri (Rothschild)<br>
 Buller's Albatross (Buller's Mollymawk)<br><br>
 
 Thalass (G - thalassa) = Goddess of the sea, belonging to one of the spring goddesses or "Protogenoi" of Greek mythology.<br>
-arche (G - arch, -o, -u, -y) = chief, leader<br>
-bulleri (latinized) = de Buller, Walter (1838-1906); New Zealand lawyer, naturalist and ornithologist<br><br>
+arche (G - arch, -o, -u, -y) = chief, leader.<br>
+bulleri (latinized) = de Buller, Walter (1838-1906); New Zealand lawyer, naturalist and ornithologist.<br><br>
 
-Head of Thalassa (goddess of the sea) by Buller
+Head of Thalassa (goddess of the sea) by Buller.
 
 ## LOCAL NAME(S)
 
@@ -54,7 +48,7 @@ Similar sexes; male somewhat larger than female. White forehead and front crown.
 
 ## FOOD
 
-Mostly cephalopods; also fish, crustaceans and tunicates
+Mostly cephalopods; also fish, crustaceans and tunicates.
 
 ## REPRODUCTION
 
@@ -66,12 +60,16 @@ Deep-sea bird that has rarely been seen off the Chilean coast. It seems that it 
 
 ## DISTRIBUTION (Clement's checklist 6.9)
 
-It nests on islands near New Zealand; range to the W. South Pacific (Chile)
+It nests on islands near New Zealand; range to the W. South Pacific (Chile).
+
+## IUCN CLASSIFICATION (2019)
+
+NT: Near Threatened
 
 ## THREATS
 
 Listed as Near Threatened (NT) because, although it is restricted to a small area when it breeds, the population is stable and the islands on which it breeds are moderately widespread, making it unlikely that is highly threatened in a short time due to human activities or stochastic events (IUCN 2019).
 
-## Image detail
+## IMAGE DETAIL
 
 Autor: Gonzalo González

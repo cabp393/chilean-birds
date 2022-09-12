@@ -1,38 +1,32 @@
 ---
-  url: chatham-albatross
-  name: Chatham Albatross
-  distribution: Chatham islands.
-  tag: VU
-  an: 600
-  al: 399
+url: chatham-albatross
+name: Chatham Albatross
+distribution: Chatham islands.
+tag: VU
+an: 600
+al: 399
+order: Procellariiformes
+family: Diomedeidae
 ---
 
-## IUCN CLASSIFICATION (2019)
-
-VU: Vulnerable
-
-## ORDER
-
-Procellariiformes
-
-## FAMILY
-
-Diomedeidae
+| ORDER             | FAMILY      |
+| ----------------- | ----------- |
+| Procellariiformes | Diomedeidae |
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
-None
+See observations.
 
 ## MONOTYPIC
 
-Hermit Thalassarche (Murphy)<br>
+Thalassarche eremita (Murphy)<br>
 Chatham Island albatross (Chatham Island mollymawk)<br><br>
 
 Thalass (G - thalassa) = Goddess of the sea, belonging to one of the spring goddesses or "Protogenoi" of Greek mythology.<br>
-arche (G - arch, -o, -u, -y) = chief, leader<br>
-hermit (G) = hermit<br><br>
+arche (G - arch, -o, -u, -y) = chief, leader.<br>
+eremita (G) = hermit.<br><br>
 
-Head of Thalassa (goddess of the sea) hermit
+Head of Thalassa (goddess of the sea) hermit.
 
 ## LOCAL NAME(S)
 
@@ -40,7 +34,7 @@ None
 
 ## DISTRIBUTION IN CHILE
 
-None
+Records
 
 ## HABITAT
 
@@ -69,7 +63,11 @@ Habitat conditions on the island deteriorated after an extreme storm in 1985 and
 
 ## DISTRIBUTION (Clement's checklist 6.9)
 
-Chatham Islands (Chile)
+Chatham Islands (Chile).
+
+## IUCN CLASSIFICATION (2019)
+
+VU: Vulnerable
 
 ## THREATS
 
@@ -77,7 +75,7 @@ Very small breeding range, restricted to a single breeding site (La Pirámide), 
 
 Trawling and longline fishing.
 
-## Image detail
+## IMAGE DETAIL
 
 Immature - offshore off Valparaiso, V region - January 2007<br>
-Autor: Pablo Caceres [Link](http://www.flickr.com/photos/pablocaceres/)
+Autor: Pablo Caceres

@@ -1,23 +1,17 @@
 ---
-  url: gray-headed-albatross
-  name: Gray headed Albatross
-  distribution: From latitude 60° S north to Arica. It nests on the Diego Ramírez and Ildefonso islands.
-  tag: EN
-  an: 600
-  al: 400
+url: gray-headed-albatross
+name: Gray headed Albatross
+distribution: From latitude 60° S north to Arica. It nests on the Diego Ramírez and Ildefonso islands.
+tag: EN
+an: 600
+al: 400
+order: Procellariiformes
+family: Diomedeidae
 ---
 
-## IUCN CLASSIFICATION (2019)
-
-EN: Endangered
-
-## ORDER
-
-Procellariiformes
-
-## FAMILY
-
-Diomedeidae
+| ORDER             | FAMILY      |
+| ----------------- | ----------- |
+| Procellariiformes | Diomedeidae |
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
@@ -29,15 +23,15 @@ Thalassarche chrysostoma (Forster)<br>
 Grey-headed albatross (Grey-headed mollymawk)<br><br>
 
 Thalass (G - Thalassa) = goddess of the sea, belonging to one of the spring goddesses or "Protogenoi" of Greek mythology.<br>
-arche (G - arch, -o, -u, -y) = chief, leader<br>
-chrysos (G - chrys, -o, -us) = gold<br>
-take (G - tom) = cut<br><br>
+arche (G - arch, -o, -u, -y) = chief, leader.<br>
+chrysos (G - chrys, -o, -us) = gold.<br>
+take (G - tom) = cut.<br><br>
 
-Head of Thalassa (goddess of the sea) of golden court
+Head of Thalassa (goddess of the sea) of golden court.
 
 ## LOCAL NAME(S)
 
-Albatros de cabeza gris, pájaro carnero
+Albatros de cabeza gris, pájaro carnero.
 
 ## DISTRIBUTION IN CHILE
 
@@ -52,7 +46,7 @@ Pelagic
 Length: 80 - 85 cm.<br>
 Wingspan: 220 cm.<br>
 Weight: 2.5 - 4.3 kg.<br><br>
-Gray head and neck, softer on forehead, sides of face, throat and rear neck. Dark slate spot over the eye and a white crescent under the eye. Dark gray back. Supracaudales, subcaudales, chest and abdomen white. Wings dark gray above; dark gray below the front half and white the rest with a dark gray rear edge. Dark gray tail. Blue legs with pink membrane. Black bill with vertex
+Gray head and neck, softer on forehead, sides of face, throat and rear neck. Dark slate spot over the eye and a white crescent under the eye. Dark gray back. Supracaudales, subcaudales, chest and abdomen white. Wings dark gray above; dark gray below the front half and white the rest with a dark gray rear edge. Dark gray tail. Blue legs with pink membrane. Black bill with vertex.
 
 ## FOOD
 
@@ -70,13 +64,17 @@ Similar to the Black-browed Albatross (Thalassarche melanophris), it differs fro
 
 ## DISTRIBUTION (Clements 6.8)
 
-Antarctic circumpolar, northward to 45° S. However, following the cold Humboldt Current to N Chile and S Peru (15° S)
+Antarctic circumpolar, northward to 45° S. However, following the cold Humboldt Current to N Chile and S Peru (15° S).
+
+## IUCN CLASSIFICATION (2019)
+
+EN: Endangered
 
 ## THREATS
 
 Listed as Endangered (EN) based on data from South Georgia, which is home to about half of the world's population, indicating a very rapid rate of global population decline over three generations (90 years). The main cause is likely to be incidental mortality from longline fishing (IUCN 2019).
 
-## Image detail
+## IMAGE DETAIL
 
 Drake Passage - November 2008<br>
-Autor: Pablo Caceres [Link](http://www.flickr.com/photos/pablocaceres/)
+Autor: Pablo Caceres
