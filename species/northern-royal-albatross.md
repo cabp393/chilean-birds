@@ -1,5 +1,5 @@
 ---
-url: northern-royal-albatross
+slug: northern-royal-albatross
 name: Northern Royal Albatross
 distribution: Throughout the entire Chilean sea, between Arica and Cape Horn.
 tag: EN

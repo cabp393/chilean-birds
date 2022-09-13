@@ -1,5 +1,5 @@
 ---
-url: antipodean-albatross
+slug: antipodean-albatross
 name: Antipodean Albatross
 distribution: In Chilean waters during its resting period.
 tag: EN

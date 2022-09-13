@@ -1,5 +1,5 @@
 ---
-url: black-browed-albatross
+slug: black-browed-albatross
 name: Black browed Albatross
 distribution: Southern seas between latitudes 23° S. and 60° S.
 tag: LC

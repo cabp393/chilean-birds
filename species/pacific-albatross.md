@@ -1,5 +1,5 @@
 ---
-url: pacific-albatross
+slug: pacific-albatross
 name: Pacific Albatross
 distribution: Humboldt current.
 tag: NE

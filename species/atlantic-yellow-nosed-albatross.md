@@ -1,5 +1,5 @@
 ---
-url: atlantic-yellow-nosed-albatross
+slug: atlantic-yellow-nosed-albatross
 name: Atlantic yellow nosed Albatross
 distribution: In South America, some individuals descend to the tip of the cone, being mentioned as... "recorded in Chilean waters south of Cape Horn (Tickel, 2000; Martinez and Gonzalez 2005)".
 tag: EN

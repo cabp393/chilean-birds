@@ -1,5 +1,5 @@
 ---
-url: chatham-albatross
+slug: chatham-albatross
 name: Chatham Albatross
 distribution: Chatham islands.
 tag: VU

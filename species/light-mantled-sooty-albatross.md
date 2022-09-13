@@ -1,5 +1,5 @@
 ---
-url: light-mantled-sooty-albatross
+slug: light-mantled-sooty-albatross
 name: Light-mantled sooty Albatross
 distribution: Between the Antarctic Circle and latitude 35° S. Occasionally N to latitude 20° S.
 tag: NT

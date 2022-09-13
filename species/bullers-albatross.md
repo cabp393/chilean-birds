@@ -1,5 +1,5 @@
 ---
-url: bullers-albatross
+slug: bullers-albatross
 name: Buller's Albatross
 distribution: Occasional visitor to the coastal area. Recorded south of Iquique, Bahia Salada (Atacama), Valparaiso and the mouth of the Aconcagua River.
 tag: NT
