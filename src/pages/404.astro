@@ -1,5 +1,4 @@
 ---
-import Navbar from '../components/Navbar.astro'
 import Tags from '../components/Tags.astro'
 import Layout from '../layouts/Layout.astro'
 
@@ -7,7 +6,6 @@ const tag = Astro.url.pathname.substring(1)
 ---
 
 <Layout>
-  <Navbar />
   <Tags active={tag} />
   <h3>No se encontraron resultados.</h3>
 </Layout>

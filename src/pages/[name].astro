@@ -1,5 +1,4 @@
 ---
-import Navbar from '../components/Navbar.astro'
 import Tags from '../components/Tags.astro'
 import Layout from '../layouts/Layout.astro'
 
@@ -7,7 +6,7 @@ export async function getStaticPaths() {
   const posts = await Astro.glob('../../species/*.md')
   return posts.map(post => ({
     params: {
-      name: post.frontmatter.url,
+      name: post.frontmatter.slug,
     },
     props: {
       post,
@@ -15,19 +14,14 @@ export async function getStaticPaths() {
   }))
 }
 const { Content, frontmatter } = Astro.props.post
+const { name, tag, slug, an, al } = frontmatter
 ---
 
-<Layout title={frontmatter.name}>
-  <Navbar />
-  <Tags active={frontmatter.tag} />
+<Layout title={name}>
+  <Tags active={tag} />
   <div class="species">
-    <h1>{frontmatter.name}</h1>
-    <img
-      src={`/${frontmatter.url}.avif`}
-      alt={frontmatter.name}
-      width={frontmatter.an}
-      height={frontmatter.al}
-    />
+    <h1>{name}</h1>
+    <img src={`/${slug}.avif`} alt={name} width={an} height={al} />
     <Content />
   </div>
 </Layout>
