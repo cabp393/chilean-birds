@@ -6,21 +6,21 @@ const { posts } = Astro.props
   {posts?.map(post => (
 
     <li class="link-card">
-      <a href={`/${post.frontmatter.url}`} {post.frontmatter.name}>
-      <img
-      src={`./${post.frontmatter.url}.avif`}
-      alt={post.frontmatter.name}
-      width={post.frontmatter.an}
-      height={post.frontmatter.al}
-      loading="lazy"
-      />
-      
-      <div class="data">
-        <h2>{post.frontmatter.name}</h2>
+      <a href={`/${post.frontmatter.slug}`} {post.frontmatter.name}>
+        <img
+        src={`./${post.frontmatter.slug}.avif`}
+        alt={post.frontmatter.name}
+        width={post.frontmatter.an}
+        height={post.frontmatter.al}
+        loading="lazy"
+        />
+        
+        <div class="data">
+          <h2>{post.frontmatter.name}</h2>
         </div>
-        </a>
-        </li>
-        ))}
+      </a>
+    </li>
+  ))}
 </ul>
 
 <style>
@@ -36,7 +36,7 @@ const { posts } = Astro.props
     list-style: none;
     background-size: 400%;
     border-radius: 0.5rem;
-    border: 1px solid #cecece;
+    border: 1px solid var(--color-border);
     background-position: 100%;
     transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
     overflow: hidden;
