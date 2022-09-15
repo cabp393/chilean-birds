@@ -15,7 +15,7 @@ family: Diomedeidae
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
-None
+See observations.
 
 ## MONOTYPIC
 
