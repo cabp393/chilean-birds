@@ -1,7 +1,7 @@
 ---
 slug: sooty-albatross
 name: Sooty Albatross
-distribution: In Chilean waters during its resting period.
+distribution: One or few records. Not local bird or common visitor.
 tag: EN
 an: 700
 al: 524
