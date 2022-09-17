@@ -1,11 +1,7 @@
 ---
-import Tags from '../components/Tags.astro'
 import Layout from '../layouts/Layout.astro'
-
-const tag = Astro.url.pathname.substring(1)
 ---
 
 <Layout>
-  <Tags active={tag} />
-  <h3>No se encontraron resultados.</h3>
+  <h3>No results found.</h3>
 </Layout>
