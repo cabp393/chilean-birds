@@ -14,10 +14,10 @@ export async function getStaticPaths() {
   }))
 }
 const { Content, frontmatter } = Astro.props.post
-const { name, tag, slug, an, al } = frontmatter
+const { name, tag, slug, an, al, distribution } = frontmatter
 ---
 
-<Layout title={name}>
+<Layout title={name} description={distribution}>
   <Tags active={tag} />
   <div class="species">
     <h1>{name}</h1>
