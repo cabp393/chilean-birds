@@ -1,8 +1,9 @@
 <div class="navbar">
   <a href="/">
-    <div class="logo">
-      <h1>Chilean <span class="text-gradient">Birds</span></h1>
-    </div>
+    <img class="favicon" src="/favicon.svg" alt="Chilean birds" height="30" />
+  </a>
+  <a href="/taxonomy">
+    <img class="tree" src="/tree.svg" alt="Taxonomic order" height="30" />
   </a>
 </div>
 
@@ -11,38 +12,26 @@
     top: 0px;
     z-index: 1;
     width: 100%;
-    margin: 2ch 0;
+    margin: 0 0 40px 0;
     position: sticky;
     background-color: var(--color-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
-  .logo {
-    color: var(--color-text);
+  .favicon {
+    padding-left: 1rem;
+  }
+
+  .tree {
+    padding-right: 1rem;
   }
 
   a {
     text-decoration: none;
-  }
-
-  .text-gradient {
-    font-weight: 900;
-    background-size: 100% 200%;
-    background-position-y: 100%;
-    background-image: var(--astro-gradient);
-    animation: pulse 4s ease-in-out infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  @keyframes pulse {
-    0% {
-      background-position-y: 0%;
-    }
-    50% {
-      background-position-y: 80%;
-    }
-    100% {
-      background-position-y: 0%;
-    }
+    color: var(--color-text);
   }
 </style>
