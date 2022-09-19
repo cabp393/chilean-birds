@@ -56,7 +56,9 @@ const taxoList = await agroupData(posts)
         <h2>{item[0]}</h2>
         {item[1].map(subItem => (
           <ul>
-            <li>{subItem.familyName}</li>
+            <li>
+              <h3>{subItem.familyName}</h3>
+            </li>
             <ul>
               {subItem.species.map(specie => (
                 <li>
@@ -72,6 +74,12 @@ const taxoList = await agroupData(posts)
 </Layout>
 
 <style>
+  h3 {
+    opacity: 0.8;
+  }
+  li {
+    padding: 0.5ch;
+  }
   a {
     text-decoration: none;
     color: black;
@@ -80,5 +88,6 @@ const taxoList = await agroupData(posts)
 
   a:hover {
     color: var(--color-primary);
+    font-weight: 500;
   }
 </style>
