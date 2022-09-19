@@ -19,12 +19,15 @@ See observations.
 
 ## MONOTYPIC
 
-Diomedea antipodensis (Robertson and Warham)<br><br>
+<details>
+<summary>Diomedea antipodensis (Robertson and Warham)</summary><br>
 
 Diomedea (G) = Diomedes, Greek mythological warrior whose companions became seabirds.<br>
 antipodensis = of the Antipodes; place on the earth's surface diametrically opposite to another.<br><br>
 
 Diomedes (Greek warrior) of the antipodes.
+
+</details>
 
 ## LOCAL NAME(S)
 
