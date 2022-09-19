@@ -1,13 +1,7 @@
 <div class="hero">
   <h1>
-    <span
-      style="--content: 'Chilean'; --start-color: var(--color-secondary); --end-color: var(--color-primary); --delay: 0s;"
-      >Chilean</span
-    >
-    <span
-      style="--content: 'Birds'; --start-color: var(--color-primary); --end-color: var(--color-primary); --delay: 3s;"
-      >Birds</span
-    >
+    <span class="text-gradient">Chilean</span>
+    <span class="text-gradient" style="animation-delay: 1s;">Birds</span>
   </h1>
 
   <p class="description">
@@ -30,27 +24,23 @@
     color: var(--color-text);
   }
 
-  span {
-    position: relative;
-  }
-
-  span::before {
-    position: absolute;
-    content: var(--content);
+  .text-gradient {
+    background-size: 100% 3000%;
+    background-position-y: 100%;
+    background-image: var(--astro-gradient);
     animation: pulse 6s ease infinite;
-    animation-delay: var(--delay);
-    background: linear-gradient(45deg, var(--start-color), var(--end-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
   @keyframes pulse {
-    0%,
-    100% {
-      opacity: 1;
+    0% {
+      background-position-y: 0%;
     }
     50% {
-      opacity: 0;
+      background-position-y: 100%;
+    }
+    100% {
+      background-position-y: 0%;
     }
   }
 
