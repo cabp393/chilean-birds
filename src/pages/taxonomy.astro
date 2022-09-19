@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+const posts = await Astro.glob('../../species/*.md')
+
+async function agroupData(data) {
+  //Creamos un nuevo objeto donde vamos a almacenar por orden.
+  let nuevoObjeto = {}
+
+  //Recorremos el arreglo
+  data.forEach(item => {
+    const { order, family, name, slug } = item.frontmatter
+
+    //Si el orden no existe
+    //Creamos e inicializamos el arreglo de familias.
+    if (!nuevoObjeto.hasOwnProperty(order)) {
+      nuevoObjeto[order] = [
+        {
+          familyName: family,
+          species: [],
+        },
+      ]
+    }
+
+    //Buscamos el indice donde se encuentra la familia
+    const familyObj = nuevoObjeto[order].findIndex(
+      item => item.familyName === family
+    )
+
+    //Si es distinto a -1 lo insertamos, de lo contrario se inicializa
+    if (familyObj !== -1) {
+      nuevoObjeto[order][familyObj].species.push({ name, slug })
+    } else {
+      nuevoObjeto[order].push({
+        familyName: family,
+        species: [],
+      })
+      const familyObj3 = nuevoObjeto[order].findIndex(
+        item => item.familyName === family
+      )
+      nuevoObjeto[order][familyObj3].species.push({ name, slug })
+    }
+  })
+
+  return Object.entries(nuevoObjeto)
+}
+
+const taxoList = await agroupData(posts)
+---
+
+<Layout>
+  <h1>Taxonomic order</h1>
+  {
+    taxoList.map(item => (
+      <>
+        <h2>{item[0]}</h2>
+        {item[1].map(subItem => (
+          <ul>
+            <li>{subItem.familyName}</li>
+            <ul>
+              {subItem.species.map(specie => (
+                <li>
+                  <a href={`/${specie.slug}`}>{specie.name}</a>
+                </li>
+              ))}
+            </ul>
+          </ul>
+        ))}
+      </>
+    ))
+  }
+</Layout>
+
+<style>
+  a {
+    text-decoration: none;
+    color: black;
+    width: auto;
+  }
+
+  a:hover {
+    color: var(--color-primary);
+  }
+</style>
