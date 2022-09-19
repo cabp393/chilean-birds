@@ -30,6 +30,7 @@ const {
         --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
         --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
         --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+        --font-size-2xl: clamp(6rem, 2.38vw + 5rem, 7rem);
 
         --color-text: #0b0a0a;
         --color-bg: #f5f0f0;
@@ -53,7 +54,7 @@ const {
 
       body {
         margin: auto;
-        padding: 1em;
+        padding: 0 1em 0 1em;
         max-width: 85ch;
         position: relative;
       }
@@ -86,6 +87,19 @@ const {
 
       :global(input, textarea, button, select, a) {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+
+      :global(summary) {
+        opacity: 0.8;
+      }
+
+      :global(summary:focus) {
+        outline: none;
+      }
+
+      :global(summary:hover) {
+        color: var(--color-primary);
+        cursor: pointer;
       }
     </style>
   </body>
