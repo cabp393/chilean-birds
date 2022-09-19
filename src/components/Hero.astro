@@ -1,0 +1,48 @@
+<div>
+  <h1>Chilean <span class="text-gradient">Birds</span></h1>
+
+  <p class="description">
+    From the high Andean plateau at the edge of the most dry desert in the world
+    to the current in the central Pacific coast.
+  </p>
+</div>
+
+<style>
+  h1 {
+    text-align: center;
+    font-size: var(--font-size-2xl);
+  }
+
+  .text-gradient {
+    font-weight: 900;
+    background-size: 100% 300%;
+    background-position-y: 100%;
+    background-image: var(--astro-gradient);
+    animation: pulse 4s ease-in-out infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @keyframes pulse {
+    0% {
+      background-position-y: 0%;
+    }
+    50% {
+      background-position-y: 100%;
+    }
+    100% {
+      background-position-y: 0%;
+    }
+  }
+
+  .description {
+    padding: 2ch;
+    margin: 1ch 0;
+    line-height: 1.6;
+    margin-bottom: 5ch;
+    border-radius: 1ch;
+    color: var(--color-bg);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0, 0.3);
+    background: var(--astro-gradient);
+  }
+</style>

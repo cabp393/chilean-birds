@@ -2,13 +2,13 @@
 import Layout from '../layouts/Layout.astro'
 import Card from '../components/Card.astro'
 import Tags from '../components/Tags.astro'
-import Description from '../components/Description.astro'
+import Hero from '../components/Hero.astro'
 
 const posts = await Astro.glob('../../species/*.md')
 ---
 
 <Layout title="Chilean birds">
-  <Description />
+  <Hero />
   <Tags active={'/'} />
   <Card posts={posts} />
 </Layout>
