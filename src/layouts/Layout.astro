@@ -1,4 +1,5 @@
 ---
+import Birds from '../components/Birds.astro'
 import Footer from '../components/Footer.astro'
 import Navbar from '../components/Navbar.astro'
 import ScrollUp from '../components/ScrollUp.astro'
@@ -20,9 +21,12 @@ const {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body>
-    <Navbar />
-    <slot />
-    <Footer />
+    <Birds />
+    <div class="content">
+      <Navbar />
+      <slot />
+      <Footer />
+    </div>
     <ScrollUp />
 
     <style>
@@ -50,13 +54,18 @@ const {
         color: var(--color-text);
         background-color: var(--color-bg);
         scroll-behavior: smooth;
+        overflow-x: hidden;
       }
 
       body {
         margin: auto;
+        position: relative;
+      }
+
+      .content {
+        margin: auto;
         padding: 0 1em 0 1em;
         max-width: 85ch;
-        position: relative;
       }
 
       :global(h1) {
