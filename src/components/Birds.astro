@@ -23,7 +23,6 @@
     width: 88px;
     height: 125px;
     will-change: background-position;
-
     animation-name: fly-cycle;
     animation-timing-function: steps(10);
     animation-iteration-count: infinite;
@@ -51,41 +50,87 @@
 
   .bird-container {
     position: absolute;
-    top: 10%;
-    left: -10%;
-    transform: scale(0) translateX(-10vw);
     will-change: transform;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
 
   .bird-container-one {
-    animation-delay: 3s;
-    animation-duration: 15s;
-    animation-name: fly-right-one;
+    opacity: 0;
     z-index: 3;
+    animation-delay: 3s;
+    animation-duration: 17s;
+    animation-name: fly-right-one;
   }
 
   .bird-container-two {
-    animation-delay: 0s;
-    animation-duration: 30s;
-    animation-name: fly-right-two;
     z-index: -1;
-    opacity: 0.5;
+    animation-delay: 0s;
+    animation-duration: 25s;
+    animation-name: fly-right-two;
   }
 
   .bird-container-three {
-    animation-delay: 11s;
-    animation-duration: 14.6s;
+    opacity: 0;
+    z-index: -1;
+    animation-delay: 2s;
+    animation-duration: 21s;
     animation-name: fly-right-three;
-    z-index: 1;
   }
 
   .bird-container-four {
-    animation-delay: 0;
-    animation-duration: 14.6s;
+    opacity: 0;
+    z-index: -1;
+    animation-delay: 6s;
+    animation-duration: 18s;
     animation-name: fly-right-four;
-    z-index: 1;
+  }
+
+  @keyframes fly-right-one {
+    0% {
+      transform: translate(-10vw, 30vh) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(110vw, 10vh) scale(0.6);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fly-right-two {
+    0% {
+      transform: translate(-10vw, 15vh) scale(0.4);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: translate(90vw, 10vh) scale(0.3);
+      opacity: 0;
+    }
+  }
+
+  @keyframes fly-right-three {
+    0% {
+      transform: translate(-10vw, 25vh) scale(0.4);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: translate(90vw, 15vh) scale(0.3);
+      opacity: 0;
+    }
+  }
+
+  @keyframes fly-right-four {
+    0% {
+      transform: translate(-10vw, 20vh) scale(0.2);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: translate(90vw, 10vh) scale(0.2);
+      opacity: 0;
+    }
   }
 
   @keyframes fly-cycle {
@@ -94,185 +139,29 @@
     }
   }
 
-  @keyframes fly-right-one {
-    0% {
-      transform: translateY(-40vh) translateX(0vw) scale(0.2);
-    }
-    10% {
-      transform: translateY(-40vh) translateX(10vw) scale(0.3);
-    }
-    20% {
-      transform: translateY(-40vh) translateX(20vw) scale(0.4);
-    }
-    30% {
-      transform: translateY(-44vh) translateX(30vw) scale(0.5);
-    }
-    40% {
-      transform: translateY(-42vh) translateX(40vw) scale(0.6);
-    }
-    50% {
-      transform: translateY(-40vh) translateX(50vw) scale(0.6);
-    }
-    60% {
-      transform: translateY(-40vh) translateX(60vw) scale(0.6);
-    }
-    100% {
-      transform: translateY(-40vh) translateX(110vw) scale(0.6);
-    }
-  }
-
-  @keyframes fly-right-two {
-    0% {
-      transform: translateY(-30vh) translateX(0vw) scale(0.1);
-    }
-    10% {
-      transform: translateY(-30vh) translateX(10vw) scale(0.2);
-    }
-    20% {
-      transform: translateY(-30vh) translateX(20vw) scale(0.2);
-    }
-    30% {
-      transform: translateY(-34vh) translateX(30vw) scale(0.3);
-    }
-    40% {
-      transform: translateY(-32vh) translateX(40vw) scale(0.3);
-    }
-    50% {
-      transform: translateY(-30vh) translateX(50vw) scale(0.3);
-    }
-    60% {
-      transform: translateY(-30vh) translateX(60vw) scale(0.3);
-    }
-    100% {
-      transform: translateY(-30vh) translateX(110vw) scale(0.3);
-    }
-  }
-
-  @keyframes fly-right-three {
-    0% {
-      transform: translateY(30vh) translateX(0vw) scale(0.1);
-    }
-    10% {
-      transform: translateY(30vh) translateX(10vw) scale(0.2);
-    }
-    20% {
-      transform: translateY(30vh) translateX(20vw) scale(0.2);
-    }
-    30% {
-      transform: translateY(34vh) translateX(30vw) scale(0.3);
-    }
-    40% {
-      transform: translateY(32vh) translateX(40vw) scale(0.3);
-    }
-    50% {
-      transform: translateY(30vh) translateX(50vw) scale(0.3);
-    }
-    60% {
-      transform: translateY(30vh) translateX(60vw) scale(0.3);
-    }
-    100% {
-      transform: translateY(30vh) translateX(100vw) scale(0.3);
-    }
-  }
-
-  @keyframes fly-right-four {
-    0% {
-      transform: translateY(300vh) translateX(0vw) scale(0.1);
-    }
-    10% {
-      transform: translateY(300vh) translateX(10vw) scale(0.2);
-    }
-    20% {
-      transform: translateY(300vh) translateX(20vw) scale(0.2);
-    }
-    30% {
-      transform: translateY(304vh) translateX(30vw) scale(0.3);
-    }
-    40% {
-      transform: translateY(302vh) translateX(40vw) scale(0.3);
-    }
-    50% {
-      transform: translateY(300vh) translateX(50vw) scale(0.3);
-    }
-    60% {
-      transform: translateY(300vh) translateX(60vw) scale(0.3);
-    }
-    100% {
-      transform: translateY(300vh) translateX(100vw) scale(0.3);
-    }
-  }
-
-  @keyframes fly-mobile-one {
-    0% {
-      transform: translateY(-70vh) translateX(0vw) scale(0.3);
-    }
-    10% {
-      transform: translateY(-72vh) translateX(10vw) scale(0.4);
-    }
-    20% {
-      transform: translateY(-74vh) translateX(20vw) scale(0.5);
-    }
-    30% {
-      transform: translateY(-74vh) translateX(30vw) scale(0.6);
-    }
-    40% {
-      transform: translateY(-74vh) translateX(40vw) scale(0.6);
-    }
-    50% {
-      transform: translateY(-72vh) translateX(50vw) scale(0.6);
-    }
-    60% {
-      transform: translateY(-70vh) translateX(60vw) scale(0.6);
-    }
-    100% {
-      transform: translateY(-70vh) translateX(100vw) scale(0.6);
-    }
-  }
-
-  @keyframes fly-mobile-two {
-    0% {
-      transform: translateY(-50vh) translateX(0vw) scale(0.1);
-    }
-    10% {
-      transform: translateY(-50vh) translateX(10vw) scale(0.2);
-    }
-    20% {
-      transform: translateY(-50vh) translateX(20vw) scale(0.2);
-    }
-    30% {
-      transform: translateY(-54vh) translateX(30vw) scale(0.3);
-    }
-    40% {
-      transform: translateY(-52vh) translateX(40vw) scale(0.3);
-    }
-    50% {
-      transform: translateY(-50vh) translateX(50vw) scale(0.3);
-    }
-    60% {
-      transform: translateY(-50vh) translateX(60vw) scale(0.3);
-    }
-    100% {
-      transform: translateY(-50vh) translateX(100vw) scale(0.3);
-    }
-  }
-
   @media (max-width: 600px) {
     .bird-container-one {
-      animation-duration: 8s;
-      animation-name: fly-mobile-one;
+      animation-duration: 10s;
     }
-
     .bird-container-two {
       animation-duration: 15s;
-      animation-name: fly-mobile-two;
+    }
+    .bird-container-three {
+      animation-duration: 13s;
+    }
+    .bird-container-four {
+      animation-duration: 10s;
     }
 
-    .bird-container-three {
-      animation-duration: 6s;
-    }
-
-    .bird-container-three {
-      animation-duration: 6s;
+    @keyframes fly-right-one {
+      0% {
+        transform: translate(-20vw, 30vh) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translate(110vw, 10vh) scale(0.6);
+        opacity: 1;
+      }
     }
   }
 </style>
