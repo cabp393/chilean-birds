@@ -7,6 +7,7 @@ an: 700
 al: 524
 order: Procellariiformes
 family: Diomedeidae
+audio:
 ---
 
 | ORDER             | FAMILY      |
@@ -19,13 +20,17 @@ Albatros ahumado
 
 ## MONOTYPIC
 
-Phoebetria fusca (Hilsenberg)<br>
-Sooty albatross<br><br>
+<details>
+<summary>Phoebetria fusca (Hilsenberg)</summary><br>
 
 Phoebetria (Greek mythology) = Phoebe, goddess of the moon.<br>
 fusca (L - fuscus) = dark.<br><br>
 
 Dark moon goddess.
+
+</details><br>
+
+Sooty albatross
 
 ## LOCAL NAME(S)
 
@@ -60,7 +65,7 @@ Pelagic, rarely approaches land except at nesting colonies.<br><br>
 
 It is distributed to the south of the Equator, through the temperate subantarctic zones of the Atlantic and Indian Oceans, from the S of Australia in the East, S of Africa, to the waters of S of Brazil and N of Argentina in the West.<br><br>
 
-Very similar to the Light-mantled Dusky Albatross (Phoebetria palpebrata), it differs by having a darker, brownish tone on the back, back and chest; and for having the line on the lower jaw yellow or orange, instead of blue or lilac.<br><br>
+Very similar to the Light-mantled Dusky Albatross (Phoebetria palpebrata), it differs by having a darker, brownish tone on the back, back and chest; and for having the line on the lower jaw yellow or orange, instead of blue or lilac.
 
 ## RECORDS IN CHILE
 
@@ -70,7 +75,7 @@ This skin was indeed found in the MNHN, as indicated in La Chiricoca 20 (Nov. 20
 
 There is another record of 2 specimens in June 1996 in Cape Horn (Aguayo et al. 1998; Couve and Vidal 2000; Martinez and Gonzalez 2004).
 
-## DISTRIBUTION (Clement's checklist 6.9)<br>
+## DISTRIBUTION (Clement's checklist 6.9)
 
 S of Atlantic and Indian Oceans; north to parallel 30° S (Chile).
 
@@ -85,3 +90,7 @@ Very rapid decline in three generations (90 years), probably due to interactions
 ## IMAGE DETAIL
 
 Autor: Amsterdam Island (Fauna)
+
+## AUDIO DETAIL
+
+None
