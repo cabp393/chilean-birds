@@ -14,7 +14,7 @@ export async function getStaticPaths() {
   }))
 }
 const { Content, frontmatter } = Astro.props.post
-const { name, tag, slug, an, al, distribution } = frontmatter
+const { name, tag, slug, an, al, distribution, audio } = frontmatter
 ---
 
 <Layout title={name} description={distribution}>
@@ -22,6 +22,8 @@ const { name, tag, slug, an, al, distribution } = frontmatter
   <div class="species">
     <h1>{name}</h1>
     <img src={`/${slug}.avif`} alt={name} width={an} height={al} />
+    <audio src={audio} controls></audio>
+
     <Content />
   </div>
 </Layout>
@@ -41,5 +43,12 @@ const { name, tag, slug, an, al, distribution } = frontmatter
     margin: 4ch 0 4ch;
     border-radius: 1ch;
     aspect-ratio-box: auto;
+  }
+
+  audio {
+    margin: auto;
+    margin-bottom: 5ch;
+    border-radius: 100px;
+    border: 1px solid var(--color-border);
   }
 </style>
