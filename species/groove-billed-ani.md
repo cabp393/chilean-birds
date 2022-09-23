@@ -73,7 +73,7 @@ S of Baja and S of Texas to N of Chile, N of Argentina, Trinidad and Curaçao.
 
 ## IUCN CLASSIFICATION (2019)
 
-LC: Lower risk
+LC: Least concern
 
 ## THREATS
 
