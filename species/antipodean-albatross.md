@@ -7,6 +7,7 @@ an: 650
 al: 400
 order: Procellariiformes
 family: Diomedeidae
+audio: //xeno-canto.org/sounds/uploaded/WOEAFQRMUD/XC466566-Diomedea%20exulans181123_T2281.mp3
 ---
 
 | ORDER             | FAMILY      |
@@ -77,3 +78,8 @@ This species is considered to be experiencing a very rapid decline in population
 
 Valparaiso - October 2010 <br>
 Autor: Pablo Caceres
+
+## AUDIO DETAIL
+
+Canterbury, New Zealand - November 2018 <br>
+Autor: Dan Lane
