@@ -7,6 +7,7 @@ an: 700
 al: 432
 order: Procellariiformes
 family: Diomedeidae
+audio: //xeno-canto.org/sounds/uploaded/PENMPUKONZ/XC395983-1252_SouthernRoyalAlbatross_22-11-2017_Campbell.mp3
 ---
 
 | ORDER             | FAMILY      |
@@ -19,14 +20,18 @@ Albatros real
 
 ## MONOTYPIC
 
-Diomedea epomophora (Lesson)<br>
-Royal albatross<br><br>
+<details>
+<summary>Diomedea epomophora (Lesson)</summary><br>
 
 Diomedea (G) = Diomedes, Greek mythological warrior whose companions became seabirds.<br>
 epomo (G - epomidi) = on the shoulders.<br>
 phora (G - phor, -a, -i, -o) = to carry, to carry.<br><br>
 
 Diomedes (Greek warrior) carrying shoulders.
+
+</details><br>
+
+Royal albatross
 
 ## LOCAL NAME(S)
 
@@ -80,4 +85,9 @@ Current population trends are assumed to be stable; however, it has a very small
 ## IMAGE DETAIL
 
 Immature - Sea outside Quintero - November 2013<br>
-Autor: Gonzalo González
+Author: Gonzalo González
+
+## AUDIO DETAIL
+
+Campbell Island, New Zealand - November 2017<br>
+Author: Sander Lagerveld
