@@ -7,6 +7,7 @@ an: 2600
 al: 1600
 order: Procellariiformes
 family: Diomedeidae
+audio: //xeno-canto.org/sounds/uploaded/BPPAITBCEX/XC623847-Albatros%20hurleur.mp3
 ---
 
 | ORDER             | FAMILY      |
@@ -19,14 +20,18 @@ Albatros viajero
 
 ## MONOTYPIC
 
-Diomedea exulans (Linnaeus)<br>
-Wandering albatross<br><br>
+<details>
+<summary>Diomedea exulans (Linnaeus)</summary><br>
 
 Diomedea (G) = Diomedes, Greek mythological warrior whose companions became seabirds.<br>
 exul (L - exsula) = exile, stranger.<br>
 -ans (L) = "related to" suffix.<br><br>
 
 Diomedes (Greek warrior) in exile.
+
+</details><br>
+
+Wandering albatross
 
 ## LOCAL NAME(S)
 
@@ -79,4 +84,9 @@ On the South Georgia Islands, this species has experienced a rapid decline over 
 ## IMAGE DETAIL
 
 Drake Passage - November 2008<br>
-Autor: Pablo Caceres
+Author: Pablo Caceres
+
+## AUDIO DETAIL
+
+Pointe du Morne, France - December 2020<br>
+Author: Hichem Machouk
