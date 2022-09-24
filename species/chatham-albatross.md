@@ -7,6 +7,7 @@ an: 600
 al: 399
 order: Procellariiformes
 family: Diomedeidae
+audio: //xeno-canto.org/sounds/uploaded/YTUXOCTUEM/ALBATROSSChathamIsland_FL%20eremita%20PyramidRock6Dec2000.mp3
 ---
 
 | ORDER             | FAMILY      |
@@ -15,18 +16,22 @@ family: Diomedeidae
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
-See observations.
+See observations
 
 ## MONOTYPIC
 
-Thalassarche eremita (Murphy)<br>
-Chatham Island albatross (Chatham Island mollymawk)<br><br>
+<details>
+<summary>Thalassarche eremita (Murphy)</summary><br>
 
 Thalass (G - thalassa) = Goddess of the sea, belonging to one of the spring goddesses or "Protogenoi" of Greek mythology.<br>
 arche (G - arch, -o, -u, -y) = chief, leader.<br>
 eremita (G) = hermit.<br><br>
 
 Head of Thalassa (goddess of the sea) hermit.
+
+</details><br>
+
+Chatham Island albatross (Chatham Island mollymawk)
 
 ## LOCAL NAME(S)
 
@@ -43,6 +48,7 @@ Marine, although less pelagic than other albatrosses.
 ## DESCRIPTION
 
 Length: 90 cm.<br><br>
+
 Adult with dark gray crown, face, and throat (darker than T. salvini); yellow bill with dark spot on tip of lower jaw. Wings dark gray above, white below with a contrasting dark line on the lower leading edge of the underwings. White stomach.
 
 ## FOOD
@@ -78,4 +84,9 @@ Trawling and longline fishing.
 ## IMAGE DETAIL
 
 Immature - offshore off Valparaiso, V region - January 2007<br>
-Autor: Pablo Caceres
+Author: Pablo Caceres
+
+## AUDIO DETAIL
+
+Chatham Islands, New Zealand - December 2000<br>
+Author: Frank Lambert
