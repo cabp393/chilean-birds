@@ -92,9 +92,9 @@ Very small breeding range and estimated to be experiencing a very rapid decline 
 
 ## IMAGE DETAIL
 
-Autor: Adam Riley
+Author: Adam Riley
 
 ## AUDIO DETAIL
 
 Tristan da Cunha, South Africa - October 1988<br>
-Autor: Nature sounds by Simply Birding
+Author: Nature sounds by Simply Birding
