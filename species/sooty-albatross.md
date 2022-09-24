@@ -89,7 +89,7 @@ Very rapid decline in three generations (90 years), probably due to interactions
 
 ## IMAGE DETAIL
 
-Autor: Amsterdam Island (Fauna)
+Author: Amsterdam Island (Fauna)
 
 ## AUDIO DETAIL
 
