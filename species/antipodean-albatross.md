@@ -16,7 +16,7 @@ audio: //xeno-canto.org/sounds/uploaded/WOEAFQRMUD/XC466566-Diomedea%20exulans18
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
-See observations.
+See observations
 
 ## MONOTYPIC
 
@@ -77,9 +77,9 @@ This species is considered to be experiencing a very rapid decline in population
 ## IMAGE DETAIL
 
 Valparaiso - October 2010 <br>
-Autor: Pablo Caceres
+Author: Pablo Caceres
 
 ## AUDIO DETAIL
 
 Canterbury, New Zealand - November 2018 <br>
-Autor: Dan Lane
+Author: Dan Lane
