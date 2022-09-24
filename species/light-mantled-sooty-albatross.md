@@ -7,6 +7,7 @@ an: 600
 al: 400
 order: Procellariiformes
 family: Diomedeidae
+audio: //xeno-canto.org/sounds/uploaded/BPPAITBCEX/XC623809-cris%20Alba%20fuli%20%C3%A0%20dos%20clair.mp3
 ---
 
 | ORDER             | FAMILY      |
@@ -19,14 +20,18 @@ Albatros tiznado
 
 ## MONOTYPIC
 
-Phoebetria palpebrata (Forster)<br>
-Light-mantled sooty albatross<br><br>
+<details>
+<summary>Phoebetria palpebrata (Forster)</summary><br>
 
 Phoebetria (Greek mythology) = of Phoebe, goddess of the moon.<br>
 palpebr (L - palpebrae) = eyelid.<br>
 atra (L - ater) = black.<br><br>
 
 Black Eyed Moon Goddess.
+
+</details><br>
+
+Light-mantled sooty albatross
 
 ## LOCAL NAME(S)
 
@@ -58,6 +63,7 @@ Every two years, when the breeding is successful. Unlike the other species of al
 ## OBSERVATIONS
 
 It is one of the albatrosses with the southernmost distribution. Although it can reach the height of Tarapaca (lat. 20° S) to the north, it is normally found from latitude 35° S and even below the Antarctic Circle.<br><br>
+
 It is distinguished from the other albatrosses by its dark color; and the Dusky Albatross (Phoebetria fusca), on the lighter back and breast. Also, the longitudinal line on the lower jaw is blue or purple and not orange; unlike the Dusky Albatross in that it is yellow or orange.<br><br>
 
 Perhaps because of its slimmer body compared to other albatross species, and because of its narrower wings, they allow greater flexibility in flight; being able to change its speed more easily, stay stationary in the air at will, and land or take off from the ground without great problems.
@@ -77,4 +83,9 @@ Classified as Near Threatened (NT) as it may be declining due to bycatch in long
 ## IMAGE DETAIL
 
 Drake Passage - November 2008<br>
-Autor: Pablo Caceres
+Author: Pablo Caceres
+
+## AUDIO DETAIL
+
+Mayes, France - March 2000<br>
+Author: Hichem Machouk
