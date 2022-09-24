@@ -7,6 +7,7 @@ an: 656
 al: 1036
 order: Procellariiformes
 family: Diomedeidae
+audio: //xeno-canto.org/sounds/uploaded/YHOCFQHBDL/XC424833-Displaying%20Northern%20Royals%20Clip.mp3
 ---
 
 | ORDER             | FAMILY      |
@@ -15,17 +16,21 @@ family: Diomedeidae
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
-See observations.
+See observations
 
 ## MONOTYPIC
 
-Diomedea sanfordi (Murphy)<br>
-Northern royal albatross<br><br>
+<details>
+<summary>Diomedea sanfordi (Murphy)</summary><br>
 
 Diomedea (G) = Diomedes, Greek mythological warrior whose companions became seabirds.<br>
 sanfordi (latinized) = Sandorf, Dr. Leonard Cutler (1868-1950), trustee of the American Museum of Natural History.<br><br>
 
 Diomedes (Greek warrior) by Sanford.
+
+</details><br>
+
+Northern royal albatross
 
 ## LOCAL NAME(S)
 
@@ -37,9 +42,7 @@ Throughout the entire Chilean sea, between Arica and Cape Horn.
 
 ## DESCRIPTION
 
-Length:<br>
-Wingspan: 320 cm.<br>
-Weight:
+Wingspan: 320 cm.
 
 ## FOOD
 
@@ -52,6 +55,7 @@ Chatham Islands and New Zealand.
 ## OBSERVATIONS
 
 Currently (2018) treated by the SACC as a subspecies of the Southern Royal Albatross (Diomedea epomophora); indicating yes, that a proposal is very necessary to determine the topic.<br><br>
+
 Considered by several authors (Tickell, 2000; Martinez Gonzalez, 2004; Onley Scofield, 2007; Zoonomen.net, HBW Alive) as a proper species: Northern Royal Albatross (Diomedea sanfordi).<br><br>
 
 Martinez and Gonzalez (2004) mention it in their work as a species that can be found throughout the Chilean sea.
@@ -62,7 +66,7 @@ Chatham Islands and New Zealand; circumpolar range in the southern oceans (Chile
 
 ## IUCN CLASSIFICATION (2019)
 
-EN: Endangered.
+EN: Endangered
 
 ## THREATS
 
@@ -70,4 +74,9 @@ In 1985, a cyclone hit the nursery areas in the I. Chathams, reducing soil prote
 
 ## IMAGE DETAIL
 
-Autor: Angus Wilson.
+Author: Angus Wilson
+
+## AUDIO DETAIL
+
+Chatham Islands, New Zealand - December 2017<br>
+Author: David Boyle
