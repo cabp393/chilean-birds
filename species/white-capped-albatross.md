@@ -7,6 +7,7 @@ an: 1200
 al: 741
 order: Procellariiformes
 family: Diomedeidae
+audio: //xeno-canto.org/sounds/uploaded/YTUXOCTUEM/ALBATROSSWhiteCapped_FL%20AuklandIs27Nov00%20%283%29.mp3
 ---
 
 | ORDER             | FAMILY      |
@@ -64,7 +65,8 @@ Endemic breeder in the southern part of Australia, Tasmania and surrounding area
 
 ## OBSERVATIONS
 
-Also known as Tasmanian Albatross (Onley Scofield, 2007).<br>
+Also known as Tasmanian Albatross (Onley Scofield, 2007).<br><br>
+
 A global population of 60,000 - 70,000 individuals is estimated (IUCN 2014).
 
 ## DISTRIBUTION (Clement's checklist 6.9)
@@ -78,9 +80,15 @@ NT: Near Threatened
 ## THREATS
 
 This species breeds on only three islands. May be susceptible to stochastic events and human activities, although one nesting site is moderately separated from the other two (IUCN 2019).<br><br>
+
 Bycatch by fishing vessels.
 
 ## IMAGE DETAIL
 
 High seas off Valparaiso - November 2016<br>
-Autor: Matias Garrido
+Author: Matias Garrido
+
+## AUDIO DETAIL
+
+Aukland Islands, New Zealand - November 2000<br>
+Author: Frank Lambert
