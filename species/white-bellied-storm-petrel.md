@@ -50,7 +50,7 @@ Highly pelagic. On land only in nesting colonies.
 
 Length: 19 - 20 cm.<br><br>
 
-Head, body and tail blackish. Breast, abdomen, rump and primary underwing coverts white. Long black legs. black beak.
+Head, body and tail blackish. Breast, abdomen, rump and primary underwing coverts white. Long black legs. Black beak.
 
 ## FOOD
 
