@@ -7,6 +7,7 @@ an: 1480
 al: 1196
 order: Procellariiformes
 family: Diomedeidae
+audio:
 ---
 
 | ORDER             | FAMILY      |
@@ -15,13 +16,12 @@ family: Diomedeidae
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
-Thalassarche (platei) (Reichenow)
+See observations
 
 ## MONOTYPIC
 
-Thalassarche platei<br>
-Pacific albatross<br>
-Northern Buller's albatross<br><br>
+<details>
+<summary>Thalassarche platei (Reichenow)</summary><br>
 
 Thalass (G - thalassa) = Goddess of the sea, belonging to one of the spring goddesses or "Protogenoi" of Greek mythology.<br>
 arche (G - arch, -o, -u, -y) = chief, leader.<br>
@@ -29,17 +29,22 @@ platei (latinized) = from Plate, Ludwig Hermann (1862-1937), Prussian professor,
 
 Head of Thalassa (goddess of the sea) from Plate.
 
+</details><br>
+
+Pacific albatross<br>
+Northern Buller's albatross
+
 ## LOCAL NAME(S)
 
-None.
+None
 
 ## DISTRIBUTION IN CHILE
 
-Humboldt current.
+Humboldt current
 
 ## HABITAT
 
-Pelagic.
+Pelagic
 
 ## DESCRIPTION
 
@@ -48,13 +53,19 @@ Length: 80 cm.
 ## OBSERVATIONS
 
 There are two lines for this breed: one that includes it as a subspecies of Buller's Albatross (Thalassarche bulleri bulleri), a line followed by the SACC and some authors; and another that indicates that recent molecular studies suggest that it has sufficient characteristics to ensure its species rank.<br><br>
+
 In both cases, the denomination platei in the scientific name is misapplied, since that is how an immature bulleri was named for the first time.<br><br>
+
 Martinez and Gonzalez (2005), who mention it in their work as an albatross that migrates to Peruvian and Chilean waters during its non-breeding period, and which has been photographed by the authors on several occasions on the central coast of Chile, consider it a species itself, separated from T. bulleri (Tickell, 2000), based on DNA analysis. They also indicate that their wings are more rounded, and in ventral view they have a wide black leading edge, wider than in the Buller's Albatross (Thalassarche bulleri), and therefore only its definitive denomination is pending.
 
 ## IUCN CLASSIFICATION (2019)
 
-None.
+None
 
 ## IMAGE DETAIL
 
-Autor: Mike Danzenbaker.
+Author: Mike Danzenbaker
+
+## AUDIO DETAIL
+
+None
