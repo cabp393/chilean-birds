@@ -89,9 +89,9 @@ None
 ## IMAGE DETAIL
 
 Adult - Offshore in front of Valparaiso - August 2013<br>
-Autor: Juan Tassara
+Author: Juan Tassara
 
 ## AUDIO DETAIL
 
 Falkland Islands, United Kingdom - February 2015<br>
-Autor: Andrew Spencer
+Author: Andrew Spencer
