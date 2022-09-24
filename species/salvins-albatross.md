@@ -7,6 +7,7 @@ an: 700
 al: 432
 order: Procellariiformes
 family: Diomedeidae
+audio: //xeno-canto.org/sounds/uploaded/SEVIQQAKWM/XC502551-191013-004%20-%20Albatros%20de%20salvin%20-%20Call.mp3
 ---
 
 | ORDER             | FAMILY      |
@@ -15,18 +16,22 @@ family: Diomedeidae
 
 ## NAME IN SPANISH RECOMMENDED BY THE S.E.O
 
-See observations.
+See observations
 
 ## MONOTYPIC
 
-Thalassarche salvini (Rothschild)<br>
-Salvin's albatross (Salvin's mollymawk)<br><br>
+<details>
+<summary>Thalassarche salvini (Rothschild)</summary<br>
 
 Thalass (G - thalassa) = Goddess of the sea, belonging to one of the spring goddesses or "Protogenoi" of Greek mythology.<br>
 arche (G - arch, -o, -u, -y) = chief, leader.<br>
 salvini (latinized) = from Salvin, Osbert (1835-1898); English naturalist. Founding member of the British Ornithologists' Union.<br><br>
 
 Head of Thalassa (goddess of the sea) by Salvin.
+
+</details><br>
+
+Salvin's albatross (Salvin's mollymawk)
 
 ## LOCAL NAME(S)
 
@@ -80,5 +85,10 @@ Breeding is largely limited to a small group of islands, where it is susceptible
 
 ## IMAGE DETAIL
 
-High seas off Valparaiso.<br>
-Autor: Christopher Momberg
+High seas off Valparaiso<br>
+Author: Christopher Momberg
+
+## AUDIO DETAIL
+
+Valparaiso, Chile - October 2019<br>
+Author: Cristian Pinto
