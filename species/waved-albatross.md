@@ -7,6 +7,7 @@ an: 1080
 al: 864
 order: Procellariiformes
 family: Diomedeidae
+audio: //xeno-canto.org/sounds/uploaded/RFRTVEHIZX/XC332858-160803_WavedAlbatross_Espanola_OC.mp3
 ---
 
 | ORDER             | FAMILY      |
@@ -19,14 +20,18 @@ Albatros de las Galapagos
 
 ## MONOTYPIC
 
-Phoebastria irrorata (Salvin)<br>
-Waved albatross<br><br>
+<details>
+<summary>Phoebastria irrorata (Salvin)</summary><br>
 
 Phoeb (Greek mythology) = Phoebe, goddess of the moon.<br>
 -astria (L - astrum) = diminutive suffix.<br>
 irrorata (L - inrorare) = moistened with dew (to moisten).<br><br>
 
 Little dewy moon goddess.
+
+</details><br>
+
+Waved albatross
 
 ## LOCAL NAME(S)
 
@@ -93,4 +98,9 @@ Extremely small breeding range, essentially limited to one island, and evidence 
 ## IMAGE DETAIL
 
 High seas, Valparaiso - February 2022<br>
-Autor: Daniel Sziklai
+Author: Daniel Sziklai
+
+## AUDIO DETAIL
+
+Galápagos Islands, Ecuador - August 2016<br>
+Author: Oscar Campbell
