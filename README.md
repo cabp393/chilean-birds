@@ -1,8 +1,11 @@
 # Chilean birds [Demo](https://chilean-birds.vercel.app)
 
 A place where you can find the different species of birds that travel and inhabit the long Chilean territory.
-<br>
-<br>
+
+## Built with
+
+[![Astro](https://img.shields.io/badge/-astro-%23171424?style=flat&logo=astro)](https://chilean-birds.vercel.app)
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)](https://chilean-birds.vercel.app)
 
 ## Full screen
 
@@ -39,8 +42,3 @@ Run from the root of the project:
 - Refactor taxonomy
 - Robots.txt ?
 - Pagination ?
-
-## Built with
-
-[![Astro](https://img.shields.io/badge/-astro-%23171424?style=flat&logo=astro)](https://chilean-birds.vercel.app)
-[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)](https://chilean-birds.vercel.app)
