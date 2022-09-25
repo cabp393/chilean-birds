@@ -21,7 +21,7 @@ See observations
 ## MONOTYPIC
 
 <details>
-<summary>Thalassarche salvini (Rothschild)</summary<br>
+<summary>Thalassarche salvini (Rothschild)</summary><br>
 
 Thalass (G - thalassa) = Goddess of the sea, belonging to one of the spring goddesses or "Protogenoi" of Greek mythology.<br>
 arche (G - arch, -o, -u, -y) = chief, leader.<br>
