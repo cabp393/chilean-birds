@@ -84,3 +84,7 @@ None
 
 Valley of the Lluya River, Arica - August 2013<br>
 Author: Rodrigo Tapia
+
+## AUDIO DETAILS
+
+None
