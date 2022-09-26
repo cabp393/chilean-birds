@@ -20,23 +20,23 @@ Run from the root of the project:
 
 ## To do list
 
-- ✅ Content to markdown
-- ✅ Dynamics routes
-- ✅ Image avif
-- ✅ Image placeholder
-- ✅ Filter tags
-- ✅ Smoth hover
-- ✅ 404 page
-- ✅ Scroll up
-- ✅ Tags map refactor
-- ✅ Count results in tag pages
-- ✅ Navbar
-- ✅ Footer
-- ✅ Taxonomic tree
-- ✅ Hero animation
-- ✅ Vocalization audio
-- ✅ Monotypic dropdown
-- Centimeters to inches
-- Refactor taxonomy
-- Robots.txt ?
-- Pagination ?
+- [x] Content to markdown
+- [x] Dynamics routes
+- [x] Image avif
+- [x] Image placeholder
+- [x] Filter tags
+- [x] Smoth hover
+- [x] 404 page
+- [x] Scroll up
+- [x] Tags map refactor
+- [x] Count results in tag pages
+- [x] Navbar
+- [x] Footer
+- [x] Taxonomic tree
+- [x] Hero animation
+- [x] Vocalization audio
+- [x] Monotypic dropdown
+- [ ] Centimeters to inches
+- [ ] Refactor taxonomy
+- [ ] Robots.txt ?
+- [ ] Pagination ?
